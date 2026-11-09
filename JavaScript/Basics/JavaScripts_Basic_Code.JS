@@ -16,3 +16,11 @@ function Division(a,b){
     result = a / b;
     console.log("The division result is: " + result);
 }
+
+function checkEvenOdd(a){
+    if(a % 2 == 0){
+        console.log("The number is even");
+    }
+    else{
+        console.log("The number is odd");
+    }
