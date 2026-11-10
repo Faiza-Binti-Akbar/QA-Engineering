@@ -20,4 +20,10 @@ function removeDuplicates(names) {
     console.log("Unique names are: " + uniqueNames);
 }
 
+let numbers = [50, 10, 40, 20, 30];
+function sortAscending(numbers) {
+    let sortedNumbers = numbers.sort((a, b) => a - b);
+    console.log("Sorted numbers in ascending order: " + sortedNumbers);
+}
+sortAscending(numbers);
 removeDuplicates(names);
